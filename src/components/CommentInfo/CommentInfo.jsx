@@ -1,4 +1,5 @@
 import React from 'react';
+import './CommentInfo.scss'; // Adicione a importação do estilo
 
 export const CommentInfo = ({ comment }) => {
   return (
@@ -10,7 +11,6 @@ export const CommentInfo = ({ comment }) => {
           {comment.email}
         </a>
       </div>
-
       <div className="CommentInfo__body">{comment.body}</div>
     </div>
   );
